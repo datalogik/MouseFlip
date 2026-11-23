@@ -9,6 +9,7 @@ fi
 APP="$PWD/dist/MouseFlip.app"
 mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 cp Assets/MouseFlip.icns "$APP/Contents/Resources/MouseFlip.icns"
+cp LICENSE "$APP/Contents/Resources/LICENSE"
 cp .build/release/MouseFlip "$APP/Contents/MacOS/MouseFlip"
 cat > "$APP/Contents/Info.plist" <<'PLIST'
 <?xml version="1.0" encoding="UTF-8"?>

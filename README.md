@@ -20,3 +20,7 @@ Copy `dist/MouseFlip.app` into your Applications folder and open it. Grant the i
 MouseFlip reads HID registry metadata and uses the scroll event’s sender when available. Some drivers omit the sender. With a mouse connected, ambiguous pixel-based events appear as **Smooth input**. The menu option **Treat unidentified smooth input as mouse** chooses which device preference applies to those events.
 
 MouseFlip applies the selected direction to horizontal and vertical scroll events. Quitting restores the normal macOS behavior. Diagnostics in `~/Library/Application Support/MouseFlip/status.json` contain current status, detected device names, and aggregate counters.
+
+## License
+
+MouseFlip is licensed under the [MIT License](LICENSE).
